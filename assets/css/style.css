@@ -3,7 +3,7 @@ html, body{
     background-image: url('../images/psychedelic_pattern.png');
 }
 
-form, body, a:link, textarea,input  {
+form, body, a:link, textarea, input  {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -14,7 +14,6 @@ header {
    border-bottom: 3px solid;
    background-color: #ffffff;
    border-color: #cccccc;
-   
 }
 
 .HeadingWrapper{
@@ -32,7 +31,6 @@ header {
    margin: auto;
    padding: 20px;
    overflow: auto;
-   
 }
 
 .Header-Content {
@@ -88,21 +86,19 @@ h2 {
    font-weight: bold;
 }
 
-body{
-   line-height: 30px;
-}
-
 .Personal-Img{
     width: 360px;
     height: 290px;
     padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
     float:left;
 }
 
 .Main-AboutMe{
     clear: auto;
+}
+
+p {
+   line-height: 30px;
 }
 
 footer {
@@ -127,10 +123,11 @@ footer {
 
 input[type=text] {
    width: 909px;
-   margin: auto;
    padding-left: 5px;
    padding-top: 5px;
    padding-bottom: 5px;
+   margin-bottom: 10px;
+   margin-top: 5px;
 }
 
 textarea {
@@ -176,11 +173,11 @@ input[type=submit] {
 }
 
 .Image-Label {
-   position: relative;
+   position: absolute;
    width: 360px;
    height: 60px;
    background-color: #4aaaa5;
-   top: -90px;
+   top: 190px;
    z-index: 1;
 }
 
@@ -190,5 +187,5 @@ h3 {
    text-align: center;
    font-family: 'Georgia', Times, 'Times New Roman', serif;
    font-size: 18pt;
-   font-weight: 500;
+   font-weight: 520;
 }
