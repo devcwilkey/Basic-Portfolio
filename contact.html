@@ -5,31 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!--Need to Make the Nav appear Right and have these as Three Buttons to Sub Pages-->
-<header><h1>Craig Wilkey</h1></header>
-<nav><a href="About">About</a>&nbsp;<a href="Portfolio">Portfolio</a>&nbsp;<a href="Contact">Contact</a></nav>
 <body>
+    <header>
+        <Div class="Header-Content">
+            <div class="HeadingWrapper">
+                <h1>Craig Wilkey</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="NavLink LinkLeft">About</a><a href="portfolio.html" class="NavLink LinkMiddle">Portfolio</a><a href="contact.html" class="NavLink LinkRight">Contact</a>
+            </nav>
+        </Div>
+    </header>
     <main>
-        <div>
+        <div class="Main-Content">
             <h2>Contact</h2>
             <hr>
-            <form>
-                Name:<br>
-                <input type="text" name="Name"><br>
-                Email:<br>
-                <input type="text" name="Email"><br>
-                Message:<br>
-                <input type="text" name="Message"><br>
-                <input type="submit" value="Submit">
-            </form>
+            <div>
+                <form>Name:<br>
+                    <input id="Name" type="text" name="Name" placeholder="John Smith">
+                    <br>Email:<br>
+                    <input id="Email" type="text" name="Email" placeholder="example@gmail.com">
+                    <br>Message:<br>
+                    <textarea id="Message" wrap="soft" name="Message" placeholder="Please provide feedback..."></textarea><br>
+                    <input type="submit" value="Submit" class="button">
+                </form>
+            </div>
         </div>
+        <div></div>
     </main>
+    <footer>
+        <div class="Footer-Content">
+            &nbsp;&nbsp;&nbsp;&nbsp;&copy;copyright
+        </div>
+    </footer>
 </body>
-<footer>
-    <a href="#"><img src="#" alt="GitHub Logo"></a>&nbsp;&nbsp;
-    <a href="#"><img src="#" alt="Linked In Logo"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&copy;copyright
-</footer>
 </html>

@@ -5,27 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!--Need to Make the Nav appear Right and have these as Three Buttons to Sub Pages-->
-<header><h1>Craig Wilkey</h1></header>
-<nav><a href="About">About</a>&nbsp;<a href="Portfolio">Portfolio</a>&nbsp;<a href="Contact">Contact</a></nav>
 <body>
+    <header>
+        <Div class="Header-Content">
+            <div class="HeadingWrapper">
+                <h1>Craig Wilkey</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="NavLink LinkLeft">About</a><a href="portfolio.html" class="NavLink LinkMiddle">Portfolio</a><a href="contact.html" class="NavLink LinkRight">Contact</a>
+            </nav>
+        </Div>
+    </header>
     <main>
-        <div>
-            <h2>Portfolio</h2>
+        <div class="Main-Content">
+            <h2>Personal Shoes</h2>
             <hr>
-            <box><img src="" alt="Hangman">Hnagman</box>
-            <box><img src="" alt="RPG Game">RPG Game</box>
-            <box><img src="" alt="Trivia Game">Trivia Game</box>
-            <box><img src="" alt="Rutgers Info Widget">Rutgers Info Widget</box>
-            <box><img src="" alt="Rock Paper Scissors">Rock Paper Scissors</box>
+            <div class="ImageHolder">
+                <img src="assets/images/CleanChampagne.jpg" alt="Air Jordan 6 - Champagne" class="position-relative">
+                <div class="Image-Label"><h3>Champagne 6's</h3></div>
+            </div>
+            <div class="ImageHolder">
+                <img src="assets/images/GreenLobster.jpg" alt="Nike SB Dunk - Green Lobster" class="position-relative">
+                <div class="Image-Label"><h3>Green Lobster</h3></div>
+            </div>
+            <div class="ImageHolder">
+                <img src="assets/images/WooConverse.jpg" alt="Converse - Dr. Woo" class="position-relative">
+                <div class="Image-Label"><h3>Dr. Woo</h3></div>
+            </div>
+            <div class="ImageHolder">
+                <img src="assets/images/OffWhite.jpg" alt="Converse - Off White" class="position-relative">
+                <div class="Image-Label"><h3>Off White</h3></div>
+            </div>
+            <div class="ImageHolder">
+                <img src="assets/images/JustinTimberlake.jpg" alt="Air Jordan 3 - JTH" class="position-relative">
+                <div class="Image-Label"><h3>Timberlake</h3></div>
+            </div>
         </div>
     </main>
+    <footer>
+        <div class="Footer-Content">
+            &nbsp;&nbsp;&nbsp;&nbsp;&copy;copyright
+        </div>
+    </footer>
 </body>
-<footer>
-    <a href="#"><img src="#" alt="GitHub Logo"></a>&nbsp;&nbsp;
-    <a href="#"><img src="#" alt="Linked In Logo"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&copy;copyright
-</footer>
 </html>
